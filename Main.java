@@ -5,6 +5,7 @@
  *  
  *  Objetivo: Se introduce una cadena de texto (tipo String) y se imprime en pantalla 
  *  cuantas palabras hay en el archivo asi como cuantas repeticiones por palabra.
+ *  La cadena dada está inicializada en linea 20 con el nombre de cadena
  */
 
 import java.util.HashMap;
@@ -15,7 +16,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// Cadena inicial
+		// Cadena inicial del problema
 		String cadena = new String("The lazy. brown fox; jumped lazy lazy");
 		
 		// Usamos StringTokenizer para separar cadena por palabras. 
