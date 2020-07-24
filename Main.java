@@ -5,12 +5,16 @@
  *  
  *  Objetivo: Se introduce una cadena de texto (tipo String) y se imprime en pantalla 
  *  cuantas palabras hay en el archivo asi como cuantas repeticiones por palabra.
- *  La cadena dada está inicializada en linea 20 con el nombre de cadena
+ *  La cadena dada está inicializada en linea 20 con el nombre de cadena, pero 
+ *  se puede descomentar ciertas lineas marcadas para introducir cadena en terminal
  */
 
 import java.util.HashMap;
 import java.util.StringTokenizer;
 import java.util.Arrays;
+
+// Descomentar el siguiente import si se introduce la cadena a mano en terminal
+// import java.util.Scanner;
 
 public class Main {
 
@@ -18,6 +22,12 @@ public class Main {
 		
 		// Cadena inicial del problema
 		String cadena = new String("The lazy. brown fox; jumped lazy lazy");
+		
+		//Si se usa terminal para introducir cadena descomentar las siguientes lineas comentadas y comentar la linea anterior
+		
+		/*System.out.println("Please enter text to analyze");
+		 * Scanner scanner = new Scanner(System.in);
+		*String cadena = scanner.nextLine(); */
 		
 		// Usamos StringTokenizer para separar cadena por palabras. 
 		StringTokenizer tokenizer = new StringTokenizer(cadena," ;,.",false);
