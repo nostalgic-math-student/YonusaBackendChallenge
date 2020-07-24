@@ -5,7 +5,7 @@
  *  
  *  Objetivo: Se introduce una cadena de texto (tipo String) y se imprime en pantalla 
  *  cuantas palabras hay en el archivo asi como cuantas repeticiones por palabra.
- *  La cadena dada está inicializada en linea 20 con el nombre de cadena, pero 
+ *  La cadena dada está inicializada en linea 24 con el nombre de cadena, pero 
  *  se puede descomentar ciertas lineas marcadas para introducir cadena en terminal
  */
 
